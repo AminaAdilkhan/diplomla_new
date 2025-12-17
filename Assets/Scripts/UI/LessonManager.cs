@@ -1,30 +1,41 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Threading.Tasks;
 
 public class LessonManager : MonoBehaviour
 {
+    [Header("Lesson")]
+    [SerializeField] private LessonConfig currentLesson;
+    [SerializeField] private TutorController tutor;
+
     [Header("UI")]
-    public Button finishButton;
+    [SerializeField] private Button finishButton;
+    [SerializeField] private string reportSceneName = "Report";
 
-    [Header("Scene names")]
-    public string reportSceneName = "Report";
+    private float lessonTimer;
 
-    void Start()
+    private void Start()
     {
         if (finishButton != null)
             finishButton.onClick.AddListener(FinishLesson);
     }
 
+    private void Update()
+    {
+        lessonTimer += Time.deltaTime;
+        ProgressManager.TrackTime(Time.deltaTime);
+    }
+
+    public async Task StartLesson()
+    {
+        await currentLesson.LoadAssetsAsync();
+        tutor.PlayIntro(currentLesson.introText);
+    }
+
     public void FinishLesson()
     {
-        // MVP-прогресс (заглушка)
-        ProgressManager.SaveProgress(
-            courseId: 1,
-            moduleId: 1,
-            lessonId: 1
-        );
-
+        ProgressManager.Save();
         SceneManager.LoadScene(reportSceneName);
     }
 }
