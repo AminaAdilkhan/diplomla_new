@@ -1,0 +1,1384 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-17T14:41:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/staic/My project
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+62050
+-licensingIpc
+LicenseClient-staic
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/staic/My project
+C:/Users/staic/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28744]  Target information:
+
+Player connection [28744]  * "[IP] 26.171.172.131 [Port] 0 [Flags] 2 [Guid] 1532329245 [EditorId] 1532329245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-29FHO98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28744]  * "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1532329245 [EditorId] 1532329245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-29FHO98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28744] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-staic" at "2025-12-17T14:41:30.3770581Z"
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3636, path: "D:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+Library Redirect Path: Library/
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              4eb4f8ff1ee54e5d80407e279c3ae062
+  Correlation Id:          cb3daaac85c290787bb21b456c01e7ae
+  External correlation Id: 8505402952023828985
+  Machine Id:              tYLs1qPTpdBq3V3x92fLVaWQBtg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-staic" (connect: 0.04s, validation: 0.03s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-staic-notifications" at "2025-12-17T14:41:30.5248399Z"
+[Licensing::Module] Licensing Background thread has ended after 0.19s
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1333.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/staic/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.9144
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375035602673-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.011695 seconds.
+- Loaded All Assemblies, in  1.223 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 972 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.769 seconds
+Domain Reload Profiling: 2990ms
+	BeginReloadAssembly (758ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (749ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1147ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.292 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.607 seconds
+Domain Reload Profiling: 5889ms
+	BeginReloadAssembly (490ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (2579ms)
+		LoadAssemblies (2100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (766ms)
+			TypeCache.Refresh (559ms)
+				TypeCache.ScanAssembly (505ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1832ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (341ms)
+			ProcessInitializeOnLoadAttributes (1290ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7423 unused Assets / (5.0 MB). Loaded Objects now: 8133.
+Memory consumption went from 147.3 MB to 142.3 MB.
+Total: 19.505100 ms (FindLiveObjects: 2.045900 ms CreateObjectMapping: 1.620200 ms MarkObjects: 9.776700 ms  DeleteObjects: 6.058400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75005.839517 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Fonts/Poppins-SemiBold.ttf
+  artifactKey: Guid(12aac7490fc6e5b41a811cc24c825f5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Fonts/Poppins-SemiBold.ttf using Guid(12aac7490fc6e5b41a811cc24c825f5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaa0851b60ec67f81242bbe07d97f1f3') in 0.7872516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement/ModuleList.cs
+  artifactKey: Guid(725bcc26dc146374c8f0d96d3928d7ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement/ModuleList.cs using Guid(725bcc26dc146374c8f0d96d3928d7ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d71be544649ac7f056f9bfef5177872') in 0.0657017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/SelectionElement.cs
+  artifactKey: Guid(2cdd424d60e1849409c110d21a5e8797) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/SelectionElement.cs using Guid(2cdd424d60e1849409c110d21a5e8797) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3b0acf23998f91ba7583ac2f79590d9') in 0.0479944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/AssetTypeExtensions.cs
+  artifactKey: Guid(70fc5a7829588334790bff0bf1a7c432) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/AssetTypeExtensions.cs using Guid(70fc5a7829588334790bff0bf1a7c432) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3be5483fe151556e677560b62f2e78ca') in 0.0500947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ready Player Me/Core/Samples/WebGLSample/Editor/ReadyPlayerMe.Samples.WebGLSample.Editor.asmdef
+  artifactKey: Guid(21b73d575b58c104db2a5ec16f91a35b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/WebGLSample/Editor/ReadyPlayerMe.Samples.WebGLSample.Editor.asmdef using Guid(21b73d575b58c104db2a5ec16f91a35b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6281805b04872ceeaff28f54ec9a777') in 0.0795215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/ClearSelection.png
+  artifactKey: Guid(5ef35277eb4994d44a9521fbd0f4ea02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/ClearSelection.png using Guid(5ef35277eb4994d44a9521fbd0f4ea02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd8f08cf4cabc2183385515ef2721bb4') in 0.308085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/CameraFollow.cs
+  artifactKey: Guid(fe759d8a0e88b174a8b7cd5f3d0da425) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/CameraFollow.cs using Guid(fe759d8a0e88b174a8b7cd5f3d0da425) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bab6aa46e6d380b6fc2275c044def32c') in 0.0455406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/IntegrationGuide
+  artifactKey: Guid(0ad6dcb1d01ac3141b39cd0999f16412) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/IntegrationGuide using Guid(0ad6dcb1d01ac3141b39cd0999f16412) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07c53be4af4d2536f2e017b90b0700f4') in 0.0458097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Scripts/PanelSwitcher.cs
+  artifactKey: Guid(5e202c27d1e0b894bb5290a05554dc44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Scripts/PanelSwitcher.cs using Guid(5e202c27d1e0b894bb5290a05554dc44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec56c74e9fd1cc34389a82fdbc66c1c') in 0.0768391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Shaders/glTFastShaderVariants.shadervariants
+  artifactKey: Guid(b0006008fb0967249afdd3255c5209aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Shaders/glTFastShaderVariants.shadervariants using Guid(b0006008fb0967249afdd3255c5209aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5d6aa37cff63e7e08adf2d2988b21c2') in 0.0804116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/CameraIcon.png
+  artifactKey: Guid(d020c3e52591eac448703b64931cfc69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/CameraIcon.png using Guid(d020c3e52591eac448703b64931cfc69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02c55eb737412e575d62f656d4db1025') in 0.1408475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/AssetButtonCreator.cs
+  artifactKey: Guid(43540c03e61f45adba034c3f7f9efa7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/AssetButtonCreator.cs using Guid(43540c03e61f45adba034c3f7f9efa7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3739e8338526894c0c6019722b8274ac') in 0.0420398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/CoreSettingsHandler.cs
+  artifactKey: Guid(2a0584054436429d91fb419947c287d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/CoreSettingsHandler.cs using Guid(2a0584054436429d91fb419947c287d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c8e9e0baba2bf46e0ed1edc5964c80d') in 0.0641134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/BreakingChangeDialog
+  artifactKey: Guid(6e97a78112f684e40ad730948b73896b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/BreakingChangeDialog using Guid(6e97a78112f684e40ad730948b73896b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eb5505694f128673c9ae1d421181f50') in 0.0381521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics/AnalyticsEditorLogger.cs
+  artifactKey: Guid(fc2862cbf129461eaa91ca136d9d045d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics/AnalyticsEditorLogger.cs using Guid(fc2862cbf129461eaa91ca136d9d045d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cad742fc50e3825d9c24b89b0233822d') in 0.0561312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements
+  artifactKey: Guid(bb88a70ca37448c1906b764cbfec3045) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements using Guid(bb88a70ca37448c1906b764cbfec3045) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffd65a83b3a712baf287c03c680d84db') in 0.0473947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Analytics/AmplitudeEventLogger.cs
+  artifactKey: Guid(06c065f93e5b4c5eb984f5ea009ca292) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Analytics/AmplitudeEventLogger.cs using Guid(06c065f93e5b4c5eb984f5ea009ca292) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3208b64b641f09d0286e8b565347bbc6') in 0.0455236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ready Player Me/Core/Samples/WebGLSample/Scripts/DemoCanvas.cs
+  artifactKey: Guid(2141f9b83133a1241b4130d10971734d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/WebGLSample/Scripts/DemoCanvas.cs using Guid(2141f9b83133a1241b4130d10971734d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2856cfb0c4fc6549d287d0a7ff17a061') in 0.0552975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/WebRequests
+  artifactKey: Guid(3f5e2f3dd94546f3a9a9f3ad7551efe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/WebRequests using Guid(3f5e2f3dd94546f3a9a9f3ad7551efe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afd8766f4c3bfd84b3a0bcde79afbcba') in 0.0419609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Interfaces/IAssetData.cs
+  artifactKey: Guid(de356081371f69346a47848b27fb87ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Interfaces/IAssetData.cs using Guid(de356081371f69346a47848b27fb87ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d2f152104a1f3abe785a67b75ca0012') in 0.0561212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/ColorAssetButton.prefab
+  artifactKey: Guid(b65d2d945cbfb354fb58d5ccbb6389aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/ColorAssetButton.prefab using Guid(b65d2d945cbfb354fb58d5ccbb6389aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22b591924640b6130323870aab1d6481') in 0.3952693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/WebGLTemplates/RPMTemplate/TemplateData/unity-logo-light.png
+  artifactKey: Guid(ed698e94e0340ee4db5f8df788f83edc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/RPMTemplate/TemplateData/unity-logo-light.png using Guid(ed698e94e0340ee4db5f8df788f83edc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '798bddefd9b79e2acceea73000e52846') in 0.0375057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '095d83bead0af1b0edecb7f7aad31a43') in 0.0934081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/AvatarData.cs
+  artifactKey: Guid(247fc36ca2524089b3dc351f824e6a3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/AvatarData.cs using Guid(247fc36ca2524089b3dc351f824e6a3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '629908656e695e6ac88f30209096453b') in 0.036143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/CameraOrbit.cs
+  artifactKey: Guid(731873f07a43384478f87bb5e9cf0f32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/CameraOrbit.cs using Guid(731873f07a43384478f87bb5e9cf0f32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92f68b42ad4bf3d25c7f926d4d4b2401') in 0.0358875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/AvatarLoaderEditor/AvatarLoaderEditorWindow.uxml
+  artifactKey: Guid(9c9fb1a8c3e120d42b59955126dc5cc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/AvatarLoaderEditor/AvatarLoaderEditorWindow.uxml using Guid(9c9fb1a8c3e120d42b59955126dc5cc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '768b066bc8638d4fe90e840e4881708e') in 0.5810776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/DeleteAvatarElement.prefab
+  artifactKey: Guid(122c5428c50dab44a98a375a74a7ab79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/DeleteAvatarElement.prefab using Guid(122c5428c50dab44a98a375a74a7ab79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dacd2bf44e96c3df00829c8bf36cd56') in 0.1876292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/PartnerAssetsDictionaryConverter.cs
+  artifactKey: Guid(a4da266e02514308bde2dbf0386a54b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/PartnerAssetsDictionaryConverter.cs using Guid(a4da266e02514308bde2dbf0386a54b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f572b49e7ddd1acb0de3b8fad735ea1d') in 0.0555784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/SignupElement.cs
+  artifactKey: Guid(a58f477544d4e9a4daf84d86b5661895) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/SignupElement.cs using Guid(a58f477544d4e9a4daf84d86b5661895) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4deff0d3c8ea25bebab142899a7ede1f') in 0.040129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/SelectionScreens/SeflieSelection.cs
+  artifactKey: Guid(ff86e57e7a946ac409ecc9450ce71149) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/SelectionScreens/SeflieSelection.cs using Guid(ff86e57e7a946ac409ecc9450ce71149) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5c7c176b99fe9d5cce19838535afc20') in 0.0402167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/SelectedAsset.png
+  artifactKey: Guid(a94b0010b91318c44b57ef6840956c7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/SelectedAsset.png using Guid(a94b0010b91318c44b57ef6840956c7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1097be7c770c8fa879bcbfba7806bc79') in 0.055189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Resources/rpm_logo.png
+  artifactKey: Guid(0f5bb53f6e5daf34fa68ca35f22634d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Resources/rpm_logo.png using Guid(0f5bb53f6e5daf34fa68ca35f22634d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9c6f7bf986aeb43d728c2d15b424311') in 0.0551704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Shaders/glTFastShaderVariantsURP.shadervariants
+  artifactKey: Guid(9446dd36f6079114e89e9f98aed2fc3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Shaders/glTFastShaderVariantsURP.shadervariants using Guid(9446dd36f6079114e89e9f98aed2fc3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bb6b82ce97a637fcc85dde5321cf090') in 0.0518047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Ready Player Me/Core/LICENSE.md
+  artifactKey: Guid(ff501dbd593903340855c69995dbbc58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/LICENSE.md using Guid(ff501dbd593903340855c69995dbbc58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae10acbeb881b576054ca20f1ed735df') in 0.0631065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/PackageManager/PackageManagerHelper.cs
+  artifactKey: Guid(1c12b21e35214e19a1c3dfe7148a3fda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/PackageManager/PackageManagerHelper.cs using Guid(1c12b21e35214e19a1c3dfe7148a3fda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5252dcbaac218de9f470d5d01ffb8fb2') in 0.0474872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/Constants/AuthConstants.cs
+  artifactKey: Guid(93dc833c39304a57a0e98015a9726b65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/Constants/AuthConstants.cs using Guid(93dc833c39304a57a0e98015a9726b65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71fafcd0946dc5e2a9f16a8a31d655eb') in 0.0527753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Configurations/Avatar Config Medium.asset
+  artifactKey: Guid(784b4c053ccfc4380ae9eb3ba1c08d15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Configurations/Avatar Config Medium.asset using Guid(784b4c053ccfc4380ae9eb3ba1c08d15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1ba2ff75a85c68aaf1d0e9c04600a58') in 0.0969008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Animations/license.txt
+  artifactKey: Guid(bd448337684179548a2135162da5b2ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Animations/license.txt using Guid(bd448337684179548a2135162da5b2ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ca47c2db8baff49e701b4f8474a3687') in 0.0686493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/GLTF
+  artifactKey: Guid(b0fb3cfdb9994bcabeddc3f4fb37e928) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/GLTF using Guid(b0fb3cfdb9994bcabeddc3f4fb37e928) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c9330ee41caa98ebc20a1da8ebfbb79') in 0.0311723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/README.md
+  artifactKey: Guid(ce481db567276a74f8fe46776fb84830) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/README.md using Guid(ce481db567276a74f8fe46776fb84830) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51c1eaba97c70b448ff8e5ecd74ec99') in 0.055069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Buttons/ColorButton.prefab
+  artifactKey: Guid(ce3fe0e72fd9a77428b183a9cd5e759d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Buttons/ColorButton.prefab using Guid(ce3fe0e72fd9a77428b183a9cd5e759d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee76af35ea62a5a3535b953dc2ca80c1') in 0.1018491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Extensions/ExtensionMethods.cs
+  artifactKey: Guid(4fbceedbd51491f4bbe60620ab33755e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Extensions/ExtensionMethods.cs using Guid(4fbceedbd51491f4bbe60620ab33755e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '825ff9815fc6ebdf95b1b2e9d99d1698') in 0.0435828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Panels
+  artifactKey: Guid(0ac4cce0c6986b54ba52582f773169d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Panels using Guid(0ac4cce0c6986b54ba52582f773169d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab8f99bb4ec43127e85099ab359fada9') in 0.0401994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Images/open_in_new.png
+  artifactKey: Guid(a6831d064b1bfe749b9faa95c3cd5033) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Images/open_in_new.png using Guid(a6831d064b1bfe749b9faa95c3cd5033) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0456793effcc3ca8570a120af1cb31d') in 0.0911521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Analytics/AmplitudeRuntimeLogger.cs
+  artifactKey: Guid(08c2cdccc3d740cfb5746893cc004dc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Analytics/AmplitudeRuntimeLogger.cs using Guid(08c2cdccc3d740cfb5746893cc004dc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a99a56e1c8e9b2d33f68e05337d8b4c3') in 0.0406278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ready Player Me/Core/Samples/WebGLSample
+  artifactKey: Guid(3967a857eed2a264bb84ede74ba18794) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/WebGLSample using Guid(3967a857eed2a264bb84ede74ba18794) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8872e1c42eadc5c72d1e16a5e3611760') in 0.0369363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/JsonConverters
+  artifactKey: Guid(ac640a0384935f54cbd672b3b5c702b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/JsonConverters using Guid(ac640a0384935f54cbd672b3b5c702b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87714c6e11dfdd08ee83be7004018638') in 0.0406786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/EyeAnimationHandlerEditor.cs
+  artifactKey: Guid(02b38ee26065cb443adf628c0b8ded61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/EyeAnimationHandlerEditor.cs using Guid(02b38ee26065cb443adf628c0b8ded61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '568f412410040bab71014eda7a8f7584') in 0.0411161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/circle-512.png
+  artifactKey: Guid(4d267838cc649284dac0e347a0072f24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/circle-512.png using Guid(4d267838cc649284dac0e347a0072f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2da2731f4484346b62a9b40dc6167775') in 0.068347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Selections/GenderSelection.prefab
+  artifactKey: Guid(761fa8ab120b56d4c838893d263acbfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Selections/GenderSelection.prefab using Guid(761fa8ab120b56d4c838893d263acbfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '090989b01ddc03f58077c821cd754dcf') in 0.1993533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Glasses.png
+  artifactKey: Guid(80b27e6127bbb1740a235f8dfe980970) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/Categories/Glasses.png using Guid(80b27e6127bbb1740a235f8dfe980970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd678b750f2274430b5f6b5d5fc8634c3') in 0.1194853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/AssetLibrary.cs
+  artifactKey: Guid(a462a8005c5f453fa4f9390d94846331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/AssetLibrary.cs using Guid(a462a8005c5f453fa4f9390d94846331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75819edecde2633b8d6e54f523419c3f') in 0.0456887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/GenderSelectElement.cs
+  artifactKey: Guid(6d1bfab10b25be94baa117ddb246dece) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/GenderSelectElement.cs using Guid(6d1bfab10b25be94baa117ddb246dece) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce69a152e0ac9beeb0179b36f775a839') in 0.043682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Animations
+  artifactKey: Guid(13a06420e0b498a40b93311ad06b511d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Animations using Guid(13a06420e0b498a40b93311ad06b511d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8849be451f9a336a741ef5dc74b08b8a') in 0.0334669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/MultipleQualityAvatarLoading
+  artifactKey: Guid(87509d667496b6f4b9316ad1cbedf5b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/MultipleQualityAvatarLoading using Guid(87509d667496b6f4b9316ad1cbedf5b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8422ba41df2cb061aca400d5606a27c8') in 0.0435248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/AvatarPropertiesExtensions.cs
+  artifactKey: Guid(8792cf7ae53246b38813644e902a2b06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/AvatarPropertiesExtensions.cs using Guid(8792cf7ae53246b38813644e902a2b06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '695ea34ed9b4c80ebf128944eab552fe') in 0.0364948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/SelectionScreens/LoginWithEmailSelection.cs
+  artifactKey: Guid(1e359f839c8e89046b9c1e402c0552e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/SelectionScreens/LoginWithEmailSelection.cs using Guid(1e359f839c8e89046b9c1e402c0552e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49054599c6db1e7e74ab0686fbcd5eea') in 0.0426278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Utils/WebRequestDispatcher.cs
+  artifactKey: Guid(a2eb8e035d52456bb8e14d633df6dd7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Utils/WebRequestDispatcher.cs using Guid(a2eb8e035d52456bb8e14d633df6dd7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8bb2e716c1b042952d5285d244d3e28') in 0.0446712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts
+  artifactKey: Guid(6840f20604a077244b5e5765099f27b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts using Guid(6840f20604a077244b5e5765099f27b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a08479ca9bc8e9dcd6acb7a3f7723bf3') in 0.0272448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Animations/Jog.fbx
+  artifactKey: Guid(62ea768b169321b4dad693af4d1393b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Animations/Jog.fbx using Guid(62ea768b169321b4dad693af4d1393b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3bdebae6a521198656acafaef0e6b33') in 0.1703559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/MultipleRenders/RenderPanel.cs
+  artifactKey: Guid(f926b769b4d1dd44eace3c1a6e04701d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/MultipleRenders/RenderPanel.cs using Guid(f926b769b4d1dd44eace3c1a6e04701d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59c1a01b2ce59b98173ad84de2139abd') in 0.0414424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/FullBodyButton.prefab
+  artifactKey: Guid(d70c7227c7a96c041b344fa81303a7f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/FullBodyButton.prefab using Guid(d70c7227c7a96c041b344fa81303a7f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57badb00d0806db34b166d0712b44c69') in 0.1441981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics/Constants.cs
+  artifactKey: Guid(e7e6b1c7b30a462e971d46dd09b38bdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics/Constants.cs using Guid(e7e6b1c7b30a462e971d46dd09b38bdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed7cc0e06a028ff47b5188c48a23fc4e') in 0.0345434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/ProfileUI.cs
+  artifactKey: Guid(10026c9b21728f44c8152de6c538b063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/ProfileUI.cs using Guid(10026c9b21728f44c8152de6c538b063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da568430eb6ca47aab0ec03a350d11c1') in 0.0489268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Animation/LoadingCircles.controller
+  artifactKey: Guid(eb1536d8dd4f1b04bb85321582c7d098) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Animation/LoadingCircles.controller using Guid(eb1536d8dd4f1b04bb85321582c7d098) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7a9cb85978c899be4a20344278e7845') in 0.0603779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Materials/GridFloor.mat
+  artifactKey: Guid(13818617b2642f8458614799effcd782) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Materials/GridFloor.mat using Guid(13818617b2642f8458614799effcd782) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0506513eac6c19663c8a99865b28f22f') in 0.0802368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/AvatarLoaderEditor
+  artifactKey: Guid(5bd53f8c2f141b74393738962a77da0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/AvatarLoaderEditor using Guid(5bd53f8c2f141b74393738962a77da0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4584a47a7b481ae5a216c95bda1c8fc9') in 0.0471744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/AssetType.cs
+  artifactKey: Guid(c8e6bab8e22d40119c5cffc7bc056d5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/AssetType.cs using Guid(c8e6bab8e22d40119c5cffc7bc056d5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e25124b985f5c2352cab44fd2f05dfd9') in 0.0703866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/AvatarConfigEditor.cs
+  artifactKey: Guid(dd70400e8b2b4c20bfe2f9bc47844cff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/AvatarConfigEditor.cs using Guid(dd70400e8b2b4c20bfe2f9bc47844cff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef17d04ac21b5cb76426761f32785522') in 0.0638564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Resources/Banner.png
+  artifactKey: Guid(97cb8e496ac634f4ba4c0a1bb899c8da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Resources/Banner.png using Guid(97cb8e496ac634f4ba4c0a1bb899c8da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f037c1e15cd14e3942e0c38c4e127c7c') in 0.0965021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/Templates/AvatarBodyTypeTemplate.cs
+  artifactKey: Guid(7f191df9459d48289bed975e5cab512e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/Templates/AvatarBodyTypeTemplate.cs using Guid(7f191df9459d48289bed975e5cab512e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bca8d1a34be616d439df60e72931d8ad') in 0.0557287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLod/Avatar Configuration LOD1.asset
+  artifactKey: Guid(1d2a8b01037e24f54b99b6aa9a51f0db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLod/Avatar Configuration LOD1.asset using Guid(1d2a8b01037e24f54b99b6aa9a51f0db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abcb0f5c9d4837f6fc9d671ba450fa17') in 0.065572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/TemplateSelectionElement.cs
+  artifactKey: Guid(8f457777c7050774eabede44ca3068b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/TemplateSelectionElement.cs using Guid(8f457777c7050774eabede44ca3068b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4be02cc37a64eb53313b5336ec2490ad') in 0.0521805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/PackageManager
+  artifactKey: Guid(2ac2b39cc7ef4a5988d6ac77077db307) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/PackageManager using Guid(2ac2b39cc7ef4a5988d6ac77077db307) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8fd8d28b5982676bfc82563d95b1b01') in 0.0498684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core
+  artifactKey: Guid(17b21c922120b25458033294675f03ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core using Guid(17b21c922120b25458033294675f03ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03050a821a90ff897d2e9a478470549d') in 0.0386771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/ThirdPersonMovement.cs
+  artifactKey: Guid(fd198b5daef562e4d9e07e8e7632cadf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/ThirdPersonMovement.cs using Guid(fd198b5daef562e4d9e07e8e7632cadf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0636b5038a0a37cf3b4a4ff5a8cb7169') in 0.0528533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core
+  artifactKey: Guid(fb301e210ce6de94ab879a88d51d724d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core using Guid(fb301e210ce6de94ab879a88d51d724d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '106f3b58653d135cdbf510aca8e29518') in 0.0370865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/DefaultAvatarButton.prefab
+  artifactKey: Guid(28a35a14cdccfc0419355c42267642cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/DefaultAvatarButton.prefab using Guid(28a35a14cdccfc0419355c42267642cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaeb037a07ec2069f5e9be12d142be13') in 0.2229355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Utilities/ProjectPrefs.cs
+  artifactKey: Guid(072a5e922b1f65e429d5fa241c1f877e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Utilities/ProjectPrefs.cs using Guid(072a5e922b1f65e429d5fa241c1f877e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e95bf62dab68d57e642c4d650f6cf30') in 0.0778297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Operations/GltFastAvatarImporter.cs
+  artifactKey: Guid(155af6c2c637f4c78bf8182754791cfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Operations/GltFastAvatarImporter.cs using Guid(155af6c2c637f4c78bf8182754791cfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3b8fecae5f6933defc1d204d3ee5fa8') in 0.0311357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows
+  artifactKey: Guid(bd8d777b90a04f7ab091ca8efd1b0b63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows using Guid(bd8d777b90a04f7ab091ca8efd1b0b63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '559260fdbf79ab5adb3f55669e43e816') in 0.0352807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/PreviewAvatar/PreviewAvatar.prefab
+  artifactKey: Guid(3cb94ff40f012bb4ab10324a45fe5080) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/PreviewAvatar/PreviewAvatar.prefab using Guid(3cb94ff40f012bb4ab10324a45fe5080) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad429f77a36762802581f8511a6b7fd6') in 0.1523049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 199
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/GLTF/GLTFDeferAgent.cs
+  artifactKey: Guid(008c0430923ead24695acdcf1f0c1596) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/GLTF/GLTFDeferAgent.cs using Guid(008c0430923ead24695acdcf1f0c1596) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22d6da5bb69ef90a10f81833839d9d6c') in 0.0323186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/MultipleRenders/MultipleAvatarRenderExample.unity
+  artifactKey: Guid(2ad06785e12050f498dcf27dcd333651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarRenderSamples/MultipleRenders/MultipleAvatarRenderExample.unity using Guid(2ad06785e12050f498dcf27dcd333651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5209a5180bf26360f50b17e400f5e8e') in 0.041937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement/ModuleInfo.cs
+  artifactKey: Guid(f14ac780c523d32408d7ea9c6f78e692) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement/ModuleInfo.cs using Guid(f14ac780c523d32408d7ea9c6f78e692) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9a79645b1adf2fc039f755a85c96781') in 0.0493873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/PreviewAvatar/PreviewMesh.glb
+  artifactKey: Guid(c053c054fc5d4ee42a02877ce265b03a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/PreviewAvatar/PreviewMesh.glb using Guid(c053c054fc5d4ee42a02877ce265b03a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7ca70a1f1af256cf481d1a48f16b0c9') in 2.3394942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 204
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/AppData.cs
+  artifactKey: Guid(5b8f504d6b2ff44efbd7bc946e491591) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/AppData.cs using Guid(5b8f504d6b2ff44efbd7bc946e491591) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd79ebde6eb932d229fc7825328037b10') in 0.0496147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/TemplateSelectionElement.prefab
+  artifactKey: Guid(f50201018cf1fde428ce508968a48aab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/TemplateSelectionElement.prefab using Guid(f50201018cf1fde428ce508968a48aab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48b12a8cc153e1aab55d330fe6509473') in 0.2592551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/Outfit.png
+  artifactKey: Guid(afb771dbd34896e41a7cd182ab4ffd2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Images/Outfit.png using Guid(afb771dbd34896e41a7cd182ab4ffd2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c83bfab57af34a831dbffb572de5567') in 0.0914552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(bb4b6cd8da1d3694f9f27a4db307b536) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/ThirdPersonController.cs using Guid(bb4b6cd8da1d3694f9f27a4db307b536) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f88d43cbe0625222862a980257a4872') in 0.0582312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/MultipleAvatarLoading/MultipleAvatarLoadingExample.cs
+  artifactKey: Guid(dc96293c4d89eff4fa7b1ad7dc22deb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/MultipleAvatarLoading/MultipleAvatarLoadingExample.cs using Guid(dc96293c4d89eff4fa7b1ad7dc22deb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e08f20abc4e5d74af609b624a95e1491') in 0.0554636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/WebGLTemplates/RPMTemplate/TemplateData/ReadyPlayerMe/ReadyPlayerMeFrame.js
+  artifactKey: Guid(b6a51c32164f4f89bfe48b53b9b277e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/RPMTemplate/TemplateData/ReadyPlayerMe/ReadyPlayerMeFrame.js using Guid(b6a51c32164f4f89bfe48b53b9b277e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c62007d2abba76072dad56fcf821d72') in 0.0540035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics
+  artifactKey: Guid(ac1c518000284e8ea25dfdd1284e0f16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Analytics using Guid(ac1c518000284e8ea25dfdd1284e0f16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f47901e176d79228b1130a907d7d375') in 0.0457058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Env
+  artifactKey: Guid(502cf9efcac345b7b335c2e0a982695a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Env using Guid(502cf9efcac345b7b335c2e0a982695a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13d6319c7f07b92c8838e58315aa5512') in 0.0534153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs
+  artifactKey: Guid(7fdcb82f4b5e94a40b6b52fb8699876b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs using Guid(7fdcb82f4b5e94a40b6b52fb8699876b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e98a14bae7a47053b2cf45522fa9fd8') in 0.0504835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons
+  artifactKey: Guid(f2698416402208740a90ceb8648693d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons using Guid(f2698416402208740a90ceb8648693d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61548b228a5d94a3d4c68bd3d557b1c9') in 0.0421797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ready Player Me/Core/Editor/WebGL/RpmWebGLPackage.unitypackage
+  artifactKey: Guid(acffe3033e9199c449338af38acaa7b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/WebGL/RpmWebGLPackage.unitypackage using Guid(acffe3033e9199c449338af38acaa7b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '501cec01bc0f468f3dd19e8b2ad6e86f') in 0.0471822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/GenderConverter.cs
+  artifactKey: Guid(05736c8f8f00452eab44a27a43440bd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/GenderConverter.cs using Guid(05736c8f8f00452eab44a27a43440bd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd829979b454f24feb31ca73e3ca6ef29') in 0.042353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/UserAvatarElement.cs
+  artifactKey: Guid(29101a69b0c2ab64fa39fc7fad726ef7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/UI/Elements/UserAvatarElement.cs using Guid(29101a69b0c2ab64fa39fc7fad726ef7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f1c08f53fd15c051cb79455b454dc3') in 0.0404286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/CustomEventArgs.cs
+  artifactKey: Guid(d8bdf2a7d02d0924b97fe8eb8ece2c00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Data/CustomEventArgs.cs using Guid(d8bdf2a7d02d0924b97fe8eb8ece2c00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4ba4565f53f86f4a2bb6ab8995f4365') in 0.0389244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/ReadyPlayerMe/WebGLHelper/RpmWebGLHelper.jslib
+  artifactKey: Guid(8341ba44d96cd40a9b5a0963cd2c23d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/ReadyPlayerMe/WebGLHelper/RpmWebGLHelper.jslib using Guid(8341ba44d96cd40a9b5a0963cd2c23d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '049d154376267ea33d7d7f73a25ebab1') in 0.0434832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Interfaces
+  artifactKey: Guid(178e0d77dd62f6c4f9607a26c5ce2f48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Interfaces using Guid(178e0d77dd62f6c4f9607a26c5ce2f48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '818ac7396a6250d698e34bc936f87ee0') in 0.0354887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ready Player Me/Core/Editor/AvatarCreator
+  artifactKey: Guid(3cd7b15d18039474489020dd9d3daf34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/AvatarCreator using Guid(3cd7b15d18039474489020dd9d3daf34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '430d4c72e62319563fccaaead98c6add') in 0.0312423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/LoadingManager.cs
+  artifactKey: Guid(24bc14f27ac548e4183abe8e2143e5a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/UI/LoadingManager.cs using Guid(24bc14f27ac548e4183abe8e2143e5a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b1666d228cfd7ee5a2cdc921b7e3881') in 0.0409249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/IntegrationGuide/IntegrationGuide.uxml
+  artifactKey: Guid(4a4f82d8946b5f74b88cd2a924583d70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/IntegrationGuide/IntegrationGuide.uxml using Guid(4a4f82d8946b5f74b88cd2a924583d70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0f5aecdc6bd9b3ff3cf63eada8f2fa5') in 0.0885389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/Constants/AvatarPropertiesConstants.cs
+  artifactKey: Guid(2a23b71b7291417aa19532a55a1a4418) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/Constants/AvatarPropertiesConstants.cs using Guid(2a23b71b7291417aa19532a55a1a4418) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e3e833641b730426931185f5bacc71d') in 0.0549262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Resources/AvatarCreatorData.asset
+  artifactKey: Guid(b641399742edb414380c1d690dbd37df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Resources/AvatarCreatorData.asset using Guid(b641399742edb414380c1d690dbd37df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efbbf6c9cf938b66525766d37a7140a6') in 0.050149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Extensions/StringExtensions.cs
+  artifactKey: Guid(d58d3d8f33d435f4aa8b5b0b6625bcbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Extensions/StringExtensions.cs using Guid(d58d3d8f33d435f4aa8b5b0b6625bcbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3afd11e5dd158783419d6e00988bdf80') in 0.0386509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Logger/RuntimeDebugPanel.cs
+  artifactKey: Guid(64853da3c4d50405999dbcabf8356d2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Logger/RuntimeDebugPanel.cs using Guid(64853da3c4d50405999dbcabf8356d2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b0a6b48362406c5ed0ab1e552927167') in 0.0452049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Configs/InGameAvatarConfig.asset
+  artifactKey: Guid(496e2d2d242b10e4cba4b50e899cac3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Configs/InGameAvatarConfig.asset using Guid(496e2d2d242b10e4cba4b50e899cac3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99785ac3f83cd9006c346469e46748e0') in 0.0397611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/BodyShapeSelectionElement.prefab
+  artifactKey: Guid(8731a79173ae10e44886e0d69fb22184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/BodyShapeSelectionElement.prefab using Guid(8731a79173ae10e44886e0d69fb22184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2698e7c2144e7372f011e02794273c9') in 0.1232199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLod/Avatar Configuration LOD2.asset
+  artifactKey: Guid(5fba8af1affda4895895126e539c6165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLod/Avatar Configuration LOD2.asset using Guid(5fba8af1affda4895895126e539c6165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d0e0e6efdd32822f6ff1bb9fca61848') in 0.0378901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Caching/CacheManager.cs
+  artifactKey: Guid(c7dac24093ac5ce4496ba2aa481c8d06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Caching/CacheManager.cs using Guid(c7dac24093ac5ce4496ba2aa481c8d06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58b24cedcc1919ff6044901353e10e24') in 0.0385184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/CategoryConverter.cs
+  artifactKey: Guid(d07ce01cc2c5462790938c3d773e27f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters/CategoryConverter.cs using Guid(d07ce01cc2c5462790938c3d773e27f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eef44b11e04773579dff8466716604c8') in 0.0370785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Utils/CameraFocuser.cs
+  artifactKey: Guid(198f21f00ad242b47bee2a7073994bea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Utils/CameraFocuser.cs using Guid(198f21f00ad242b47bee2a7073994bea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '820eda6832a0c09f01d1e9731cc30f15') in 0.0450027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/RawImageExtensions.cs
+  artifactKey: Guid(fe8d461e8e524f97b403a33b50d61c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Extensions/RawImageExtensions.cs using Guid(fe8d461e8e524f97b403a33b50d61c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f05052b65470e405237594cfa79f5f54') in 0.0447679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement
+  artifactKey: Guid(c882a7949df662b428444bc798c7ebb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/ModuleManagement using Guid(c882a7949df662b428444bc798c7ebb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db565df7f3f18bc0ab1369820588a24') in 0.0414359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Models
+  artifactKey: Guid(9920f64c6ab870340b2c3de1a305045e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Models using Guid(9920f64c6ab870340b2c3de1a305045e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '470a13430a9d6ddfbe7335b11534789a') in 0.03409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Animation/EyeAnimationHandler.cs
+  artifactKey: Guid(e8112819fa10b2549869292e920d4a6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Animation/EyeAnimationHandler.cs using Guid(e8112819fa10b2549869292e920d4a6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8854e44d848952ec9bc99c0d143e441a') in 0.0454081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Ready Player Me/Avatars/6942bc3f4a15f239b09c5fb5/2fac66e374c947c41bc74325c6e3d934/6942bc3f4a15f239b09c5fb5.prefab
+  artifactKey: Guid(d5ecc09f02e8d7447aa9e06d46ed9652) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Avatars/6942bc3f4a15f239b09c5fb5/2fac66e374c947c41bc74325c6e3d934/6942bc3f4a15f239b09c5fb5.prefab using Guid(d5ecc09f02e8d7447aa9e06d46ed9652) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac8dbcd44145aca3dd4ddd4bd0ef453a') in 0.0947257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 183
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Managers/PartnerAssetsManager.cs
+  artifactKey: Guid(1574ff090c5e43ddb2c6813d8ac56d0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Managers/PartnerAssetsManager.cs using Guid(1574ff090c5e43ddb2c6813d8ac56d0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb86d6e7fa30b1128b5c0a15739bf57') in 0.0339576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ready Player Me/Avatars/6942bc3f4a15f239b09c5fb5/2fac66e374c947c41bc74325c6e3d934
+  artifactKey: Guid(b5baf59812b71c64d96975efbe61b5c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Avatars/6942bc3f4a15f239b09c5fb5/2fac66e374c947c41bc74325c6e3d934 using Guid(b5baf59812b71c64d96975efbe61b5c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15edfb49e26b22ac7cd8b1e121377ac5') in 0.0296086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/GameManager.cs
+  artifactKey: Guid(a8b65010da704948980bd54994cefd5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Scripts/GameManager.cs using Guid(a8b65010da704948980bd54994cefd5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63b44a5220dc1f21108c37de7005c198') in 0.0437475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Models/RPM_Template_Mesh_XR.glb
+  artifactKey: Guid(dd1f9c886e182774f936520a12921cca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Models/RPM_Template_Mesh_XR.glb using Guid(dd1f9c886e182774f936520a12921cca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed3ba27b31f79fa8b1658f3ffa54b2ba') in 0.4973044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 239
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/GroundCheck.cs
+  artifactKey: Guid(053ead010be65cf4bb8cdefa80daee41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/GroundCheck.cs using Guid(053ead010be65cf4bb8cdefa80daee41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd31b66a970efcb168ccda682a7f7e777') in 0.0378837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/Templates/Resources/AvatarConfigTemplate.uxml
+  artifactKey: Guid(850efdc3488431049a92498a649cf827) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/EditorWindows/Templates/Resources/AvatarConfigTemplate.uxml using Guid(850efdc3488431049a92498a649cf827) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0536b1e26ab04c2f14e7b18f3aa84ad') in 0.0883029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Utils/AvatarConfigProcessor.cs
+  artifactKey: Guid(9cdad78e17ffa4e43858a1cb35711c5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Utils/AvatarConfigProcessor.cs using Guid(9cdad78e17ffa4e43858a1cb35711c5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50584c8a152f3b1e0ed5726a75e76499') in 0.0429804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Utils/Rotation
+  artifactKey: Guid(f0c01b6b2472477aa73c08ac14cb44be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Utils/Rotation using Guid(f0c01b6b2472477aa73c08ac14cb44be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '733fc6da8c8ff113550fa10c95d6cf09') in 0.0250196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Animation
+  artifactKey: Guid(6e9506fb62cb91b4dab901dbd1cca7c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorElements/Animation using Guid(6e9506fb62cb91b4dab901dbd1cca7c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd110e7c3048fffa2f3b97ee12f1f9bff') in 0.0350242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/AvatarPreviewElement.prefab
+  artifactKey: Guid(c88f73ec02963d241b827c10d9037e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/Elements/AvatarPreviewElement.prefab using Guid(c88f73ec02963d241b827c10d9037e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84a62a49c53c8a53f8c3edcbe29ba530') in 0.0837212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/AvatarRenderLoader.cs
+  artifactKey: Guid(bb439252ab121475297830b31a6c46c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/AvatarRenderLoader.cs using Guid(bb439252ab121475297830b31a6c46c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c63ea3a2cecc85b9d6e7f4519e93243b') in 0.0317966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLoading/AvatarLoadingExample.cs
+  artifactKey: Guid(5ec678a30bb724ed9999a22a9e41d8af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarLoadingSamples/AvatarLoading/AvatarLoadingExample.cs using Guid(5ec678a30bb724ed9999a22a9e41d8af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f82e7893b2a363021e9e23d8c2c42a1') in 0.0338542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Extensions/WebRequestDispatcherExtension.cs
+  artifactKey: Guid(0fe757eef69d427e96897b5047e70f04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Extensions/WebRequestDispatcherExtension.cs using Guid(0fe757eef69d427e96897b5047e70f04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c30a9dcd0f3a38c37046c6a2e9a71697') in 0.0324559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/RPM_Icon.png
+  artifactKey: Guid(c6e5475275b12574ca01dd6502480e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/icons/RPM_Icon.png using Guid(c6e5475275b12574ca01dd6502480e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3497879b7e75b96fcd1ad084e3fd56fa') in 0.0481899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/VoiceHandlerEditor.cs
+  artifactKey: Guid(56f2c5f87e6c33748843fd099b9e2242) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/UI/CustomEditors/VoiceHandlerEditor.cs using Guid(56f2c5f87e6c33748843fd099b9e2242) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dbdbe398ebb144742cf069c39f5435d') in 0.0382382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Scripts/Logger
+  artifactKey: Guid(db770d7b8b034f8f9941d43762eb3f75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Scripts/Logger using Guid(db770d7b8b034f8f9941d43762eb3f75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15410a57a6bc107fb152cd905b69fe19') in 0.0296052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_heavyset.png
+  artifactKey: Guid(96cf88f410f515e438e9d7d1af0c16db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Icons/bodyshape_heavyset.png using Guid(96cf88f410f515e438e9d7d1af0c16db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd998b60eefca12aa0d9f419b81113bc5') in 0.0514588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/SelectIcon.prefab
+  artifactKey: Guid(d9b672212a2f80d4e9d3a90957f01b4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Prefabs/SelectIcon.prefab using Guid(d9b672212a2f80d4e9d3a90957f01b4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba7025d60ca56a19433611fa834ce7ee') in 0.0710616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters
+  artifactKey: Guid(cb5ffac5d5924eec80276e434da1c92d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/JsonConverters using Guid(cb5ffac5d5924eec80276e434da1c92d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e77f587348d82da4c60cecbb99ed22d6') in 0.0497845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ready Player Me/Core/Editor/Core/Scripts/Settings/GraphicsSettingsUtility.cs
+  artifactKey: Guid(6d2fbb1ef6a68bc4b9c0c99be430c64d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Editor/Core/Scripts/Settings/GraphicsSettingsUtility.cs using Guid(6d2fbb1ef6a68bc4b9c0c99be430c64d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5060fbf6e4eec0315263af04c1eb1c2') in 0.0373866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/MouseCursorLock.cs
+  artifactKey: Guid(ee7a0f2cabd18c64dbdec82b601c0b57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/QuickStart/Scripts/MouseCursorLock.cs using Guid(ee7a0f2cabd18c64dbdec82b601c0b57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8180926553aa81564cd92a9f25b1f803') in 0.0390362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/AssetButton.prefab
+  artifactKey: Guid(80a1b1f210f412d4c8b6bc1f7542904e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Samples/AvatarCreatorSamples/AvatarCreatorWizard/Prefabs/Buttons/AssetButton.prefab using Guid(80a1b1f210f412d4c8b6bc1f7542904e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cebee2abc36431dfe67863dcc161337') in 0.0709071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/Core/Configurations/Avatar Config High.asset
+  artifactKey: Guid(0721fb2c84320491182b4a7bdbd9d2d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/Core/Configurations/Avatar Config High.asset using Guid(0721fb2c84320491182b4a7bdbd9d2d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c80f7ea60d4caa49ed99caab2f3a1f97') in 0.0676243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/PartnerAsset.cs
+  artifactKey: Guid(f2719f45a60bfd443829b433870e2b2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ready Player Me/Core/Runtime/AvatarCreator/Scripts/Data/PartnerAsset.cs using Guid(f2719f45a60bfd443829b433870e2b2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dab173f0ebe0188ba1005c659dd900d') in 0.0409532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
